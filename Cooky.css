@@ -211,7 +211,6 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 60px auto 0;
-  padding: 8px;
 }
 
 .u-section-3 .u-text-1 {
@@ -266,6 +265,10 @@
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
     min-height: 865px;
+  }
+
+  .u-section-3 .u-icon-1 {
+    padding: 8px;
   }
 
   .u-section-3 .u-group-1 {

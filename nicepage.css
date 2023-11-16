@@ -43282,7 +43282,7 @@ a.u-link.u-text-hover-grey-90:hover {
         @media (max-width: 575px) {
         h2:not(.u-subtitle)
         {
-        font-size: 2.25rem;
+        font-size: 1.875rem;
         }
         }
         @media (max-width: 1199px) {
@@ -43427,7 +43427,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-xs h2:not(.u-subtitle)
         {
-        font-size: 2.25rem;
+        font-size: 1.875rem;
         }
         .u-lg h3
         {

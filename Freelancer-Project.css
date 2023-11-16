@@ -429,7 +429,6 @@
     grid-template-columns: 100%;
     min-height: 533px;
     grid-gap: 30px 30px;
-    grid-auto-columns: 100%;
   }
 
   .u-section-3 .u-text-2 {
@@ -472,7 +471,6 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 60px auto 0;
-  padding: 6px;
 }
 
 .u-section-4 .u-text-1 {
@@ -811,6 +809,12 @@
   right: 10px;
   width: 40px;
   height: 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-icon-1 {
+    padding: 6px;
+  }
 }
 
 @media (max-width: 991px) {
