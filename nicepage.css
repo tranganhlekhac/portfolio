@@ -43037,6 +43037,17 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         }
 
         /** common-rules **/
@@ -43211,52 +43222,58 @@ a.u-link.u-text-hover-grey-90:hover {
         @media (max-width: 1199px) {
         h1.u-title
         {
-        font-size: 4.5rem;
+        font-size: 1.5rem;
         }
         }
         @media (max-width: 767px) {
         h1.u-title
         {
-        font-size: 3.75rem;
+        font-size: 1.5rem;
         }
         }
         @media (max-width: 575px) {
         h1.u-title
         {
-        font-size: 3rem;
+        font-size: 1.25rem;
+        }
+        }
+        @media (max-width: 991px) {
+        h2.u-subtitle
+        {
+        line-height: 1.5;
         }
         }
         @media (max-width: 767px) {
         h2.u-subtitle
         {
-        font-size: 2.25rem;
+        font-size: 1.25rem;
         }
         }
         @media (max-width: 575px) {
         h2.u-subtitle
         {
-        font-size: 1.875rem;
+        font-size: 1.25rem;
         }
         }
         @media (max-width: 1199px) {
         h1:not(.u-title)
         {
+        font-size: 4.5rem;
+        }
+        }
+        @media (max-width: 767px) {
+        h1:not(.u-title)
+        {
+        font-size: 4.5rem;
+        }
+        }
+        @media (max-width: 575px) {
+        h1:not(.u-title)
+        {
         font-size: 3.75rem;
         }
         }
         @media (max-width: 767px) {
-        h1:not(.u-title)
-        {
-        font-size: 3rem;
-        }
-        }
-        @media (max-width: 575px) {
-        h1:not(.u-title)
-        {
-        font-size: 2.25rem;
-        }
-        }
-        @media (max-width: 767px) {
         h2:not(.u-subtitle)
         {
         font-size: 2.25rem;
@@ -43265,25 +43282,60 @@ a.u-link.u-text-hover-grey-90:hover {
         @media (max-width: 575px) {
         h2:not(.u-subtitle)
         {
-        font-size: 1.875rem;
+        font-size: 2.25rem;
         }
         }
-        @media (max-width: 767px) {
+        @media (max-width: 1199px) {
         h3
         {
         font-size: 1.875rem;
         }
         }
-        @media (max-width: 575px) {
+        @media (max-width: 767px) {
         h3
         {
         font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        }
+        }
+        @media (max-width: 575px) {
+        h3
+        {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        }
+        }
+        @media (max-width: 767px) {
+        p.u-large-text
+        {
+        font-size: 1rem;
+        }
+        }
+        @media (max-width: 575px) {
+        p.u-large-text
+        {
+        font-size: 0.875rem;
+        }
+        }
+        @media (max-width: 991px) {
+        p:not(.u-text-variant)
+        {
+        font-size: 1rem;
         }
         }
         @media (max-width: 767px) {
         p:not(.u-text-variant)
         {
         font-size: 1rem;
+        }
+        }
+        @media (max-width: 575px) {
+        p:not(.u-text-variant)
+        {
+        font-size: 0.875rem;
         }
         }
         @media (max-width: 767px) {
@@ -43325,43 +43377,49 @@ a.u-link.u-text-hover-grey-90:hover {
         /*begin-responsive rules*/
         .u-lg h1.u-title
         {
-        font-size: 4.5rem;
+        font-size: 1.5rem;
         }
         .u-md h1.u-title
         {
-        font-size: 4.5rem;
+        font-size: 1.5rem;
         }
         .u-sm h1.u-title
         {
-        font-size: 3.75rem;
+        font-size: 1.5rem;
         }
         .u-xs h1.u-title
         {
-        font-size: 3rem;
+        font-size: 1.25rem;
         }
         .u-sm h2.u-subtitle
         {
-        font-size: 2.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
         }
         .u-xs h2.u-subtitle
         {
-        font-size: 1.875rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        }
+        .u-md h2.u-subtitle
+        {
+        line-height: 1.5;
         }
         .u-lg h1:not(.u-title)
         {
-        font-size: 3.75rem;
+        font-size: 4.5rem;
         }
         .u-md h1:not(.u-title)
         {
-        font-size: 3.75rem;
+        font-size: 4.5rem;
         }
         .u-sm h1:not(.u-title)
         {
-        font-size: 3rem;
+        font-size: 4.5rem;
         }
         .u-xs h1:not(.u-title)
         {
-        font-size: 2.25rem;
+        font-size: 3.75rem;
         }
         .u-sm h2:not(.u-subtitle)
         {
@@ -43369,15 +43427,43 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-xs h2:not(.u-subtitle)
         {
+        font-size: 2.25rem;
+        }
+        .u-lg h3
+        {
+        font-size: 1.875rem;
+        }
+        .u-md h3
+        {
         font-size: 1.875rem;
         }
         .u-sm h3
         {
-        font-size: 1.875rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        font-weight: 700;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         .u-xs h3
         {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 700;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        }
+        .u-sm p.u-large-text
+        {
+        font-size: 1rem;
+        }
+        .u-xs p.u-large-text
+        {
+        font-size: 0.875rem;
+        }
+        .u-md p:not(.u-text-variant)
+        {
+        font-size: 1rem;
         }
         .u-sm p:not(.u-text-variant)
         {
@@ -43385,7 +43471,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-xs p:not(.u-text-variant)
         {
-        font-size: 1rem;
+        font-size: 0.875rem;
         }
         .u-sm a
         {
@@ -43436,7 +43522,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > h1:not(.u-title),
         h1:not(.u-title)
         {
-        color: #f5d654;
+        color: #abd373;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p.u-large-text,
         .u-gradient > .u-container-layout > p.u-large-text,
@@ -43519,7 +43605,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /** alt-color-rules **/
         .u-shading h1:not(.u-title),.u-overlap-contrast .u-header h1:not(.u-title):not(.u-nav-link):not(.u-btn)
         {
-        color: #72683f;
+        color: #000000;
         }
         .u-shading p.u-large-text,.u-overlap-contrast .u-header p.u-large-text:not(.u-nav-link):not(.u-btn)
         {
@@ -43565,19 +43651,8 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 96px;
 }
 
-.u-header .u-image-1 {
-  width: 64px;
-  height: 32px;
-  margin: 30px auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-
 .u-header .u-menu-1 {
-  margin: -32px 0 30px auto;
+  margin: 30px 0 30px auto;
 }
 
 .u-header .u-nav-1 {
